@@ -26,6 +26,8 @@ Exercise #1
 -----------
 - In my framework i use Java/Selenium/Selenide framework and Page object model. I use Factory methods from Selenide but also i know Selenium @FindBy methods i just didn't use them 
 - I use WebDriverManager to automatically download and set webdriver 
+- Browser is set as parameter in testng.xml file by default i set "chrome" if you want to use other browser you need to change that value
+- Also i know that you can do it via maven by adding to "mvn test" "-DbrowserName=browsername"  
   
 Exercise #2
 -----------
